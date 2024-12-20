@@ -69,7 +69,15 @@ print((x>y) or (y<8))#this will pruint true or false ,here at least one conditio
 
 print(not(x > 5)) #false becaus x is greater than 5
 
+#python user input 
+username=input("Enter Username:")
+print("Username is: "+ username)
 
+#type casting
+x="20"
+print(type(x))
 
+x=int(x)
+print(type(x))
 
 
