@@ -85,6 +85,26 @@ for x in MynumList:
   Mylist.append(MynumList)
   print(Mylist)
 
+#tuples
+mytuple =("apple", "banana", "cherry")
+print(type(mytuple))
 
+#access tuple items
+print(mytuple[1:2])#index 1 to 2
+#index 0 items
+print(mytuple[0])
+#we cant change tyuple item directly,we have to convert this tuple to list and then convert this list and tuple and print this updated tuple
+updateTuple=list(mytuple)
+updateTuple.append("Minhaz")#will add in the last
+updateTuple[1]="Uddin"
+print(updateTuple)
+myNewTuple=tuple(updateTuple)
+print(myNewTuple)
+#loop in tuple
+for x in myNewTuple:
+  print(x)
+ 
 
-
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
