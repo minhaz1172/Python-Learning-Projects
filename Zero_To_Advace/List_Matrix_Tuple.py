@@ -103,8 +103,8 @@ print(myNewTuple)
 #loop in tuple
 for x in myNewTuple:
   print(x)
- 
-
 thistuple = ("apple", "banana", "cherry")
 for i in range(len(thistuple)):
   print(thistuple[i])
+
+  
