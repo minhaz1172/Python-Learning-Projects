@@ -42,3 +42,26 @@ for i in range(12):
         print("Iteration skipped for i=10")
         continue
     print("5 x", i + 1, "=", 5 * (i + 1))
+
+#functions in python
+#cheking a number is even or odd
+
+def evenodd(x):
+    if x % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+number = int(input("Enter a number: "))  # Convert input to integer
+evenodd(number)
+
+#factorial in python
+def factorial(number):
+    if number==0:
+        return 1
+    else:
+        return number*factorial(number-1)
+
+   
+n=int(input("Enter a number"))
+print(factorial(n))
