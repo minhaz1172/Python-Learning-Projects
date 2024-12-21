@@ -65,3 +65,21 @@ def factorial(number):
    
 n=int(input("Enter a number"))
 print(factorial(n))
+
+
+#lambda function in python
+#square of a number
+sq = lambda x: x**2  # Lambda function to calculate square
+number = int(input("Enter a number: "))  # Convert input to integer
+print("The square of the number is:", sq(number))
+
+#checking anumber id even or odd
+check=lambda x:"Even number" if x % 2==0 else "odd number"
+print(check(4)) 
+
+
+#two number
+calc = lambda x, y: (x + y, x * y)
+
+res = calc(3, 4)
+print(res)
