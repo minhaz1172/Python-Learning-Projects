@@ -23,3 +23,35 @@ Myset.update(myList)
 print(Myset)
 
 #remove item from set by pop,remove discard method
+
+#python dictonaries
+
+myDict = {
+    "Minhaz": {
+        "Name": "Minhaz Uddin",
+        "Age": int(12),
+        "University": "RUET"
+    }
+}
+
+print(myDict["Minhaz"])
+print(myDict["Minhaz"]["Name"])
+print(myDict["Minhaz"]["University"])
+
+#accesing items
+x=myDict["Minhaz"]["Age"]
+print(x)
+x=myDict.keys() #what keys in dictionary
+print(x)
+
+#update dictionary
+myDict.update({"Age":int(23)})
+print(myDict)
+# add items to dictionary
+myDict["profession"]="programmer"
+print(myDict)
+
+#loop in duictionary
+for x in myDict:
+  print(x)
+ 
