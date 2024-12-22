@@ -29,15 +29,17 @@ class Animal:
    def __init__(self,name):
         self.name=name
 
-        def speak(self):
-          pass
+   def make_sound(self):  
+       return f"{self.name} is making sound"
     
- #child class
+ #child class 
 class Dog(Animal):
-    def speak(self):
-        return f"{self.name} calling  her mom"
-        
+  def speak(self):
+      #inheritance
+    parent_sound=  super().make_sound()   #super method is used to cal call method of parent class
+    return f"{parent_sound} and {self.name} calling  her mom"
+              
 #creating instance
 dog=Dog("John")
-print(dog.speak()) 
+print(dog.speak())
                 
