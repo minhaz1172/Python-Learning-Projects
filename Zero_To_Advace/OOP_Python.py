@@ -20,4 +20,24 @@ print(f"The details of the programmer are: {man.name}, {man.language}, {man.age}
 
 # Updating the details of the programmer
 man.update("Java","Minhaz")
-print(f"the update name is:{man.name},{man.language}")
+print(f"the update name is:{man.name},{man.language}") 
+
+
+#inheritance
+#parent clas
+class Animal:
+   def __init__(self,name):
+        self.name=name
+
+        def speak(self):
+          pass
+    
+ #child class
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} calling  her mom"
+        
+#creating instance
+dog=Dog("John")
+print(dog.speak()) 
+                
