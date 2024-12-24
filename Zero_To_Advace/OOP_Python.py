@@ -42,4 +42,3 @@ class Dog(Animal):
 #creating instance
 dog=Dog("John")
 print(dog.speak())
-                
