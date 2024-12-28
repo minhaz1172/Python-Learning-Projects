@@ -34,7 +34,6 @@ file1=open("file4.txt","a+")
 file1.write("Today ia am going to cox's bazar for travelling .\n i will stay there for two days it is my first visit ")
 file.close()
 
-
 with open("file4.txt","r") as f:
  data=f.read()
  print("the content in the file4 is:",data)
