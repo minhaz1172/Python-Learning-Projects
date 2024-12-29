@@ -21,4 +21,3 @@ json_employee=json.dumps(employee_dict)
 
 print("\nThis is JSON object:", type(json_employee))
 print(json_employee)
-
